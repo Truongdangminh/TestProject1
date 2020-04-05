@@ -53,7 +53,14 @@ public class Circle
 		System.out.println(c2.calArea());
 		System.out.print("Chu vi 2 = ");
 		System.out.println(c2.calCircumference());
-
+		
+		Circle c3 = new Circle(9);
+		System.out.println(c2.getRadius());
+		System.out.print("Dien tich 2 = ");
+		System.out.println(c2.calArea());
+		System.out.print("Chu vi 2 = ");
+		System.out.println(c2.calCircumference());
+		
 	}
 
 }
